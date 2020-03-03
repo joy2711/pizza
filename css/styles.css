@@ -1,0 +1,42 @@
+h1 {
+    background-image: url(../image/cg.jpg);
+    width: fit-content;
+    height: 390px;
+    width: 910px;
+    text-align: center;
+    text-indent: initial;
+    color: navy;
+    text-rendering: auto;
+    size: 588pt;
+}
+
+container {
+    background-image: url(../image/cg2.jpg);
+    width: fit-content;
+    height: 390px;
+    text-align: justify;
+    color: hotpink;
+}
+
+#btn {
+    justify-content: center;
+    display: flex;
+    margin-left: 40%;
+    margin-top: 15%;
+    padding: 20px 40px;
+    font-size: 30px;
+}
+
+#btn:hover {
+    background-color: purple;
+    color: greenyellow;
+}
+
+#order {
+    background-image: url(../image/cg2.jpg);
+    width: 1300px;
+    height: 750px;
+    text-align: center;
+    color: hotpink;
+    float: left;
+}
