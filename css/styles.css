@@ -1,5 +1,5 @@
 h1 {
-    background-image: url(../image/cg.jpg);
+    background-image: url(../images/cg.jpg);
     width: fit-content;
     height: 390px;
     width: 910px;
@@ -11,7 +11,7 @@ h1 {
 }
 
 container {
-    background-image: url(../image/cg2.jpg);
+    background-image: url(../images/cg2.jpg);
     width: fit-content;
     height: 390px;
     text-align: justify;
@@ -33,7 +33,7 @@ container {
 }
 
 #order {
-    background-image: url(../image/cg2.jpg);
+    background-image: url(../images/cg2.jpg);
     width: 1300px;
     height: 750px;
     text-align: center;

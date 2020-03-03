@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<div id="container">
+    <h1>Time for<br>PIZZA!!!!!</h1>
+
+    <body>
+        <p> which size do you want to order?Different sizes go for different prizes</p>
+        <div class="col-md-3">
+            <label for="size" style="color:purple">Size</label>
+            <select class="browser-default custom-select" id="size">
+            <option value="">Choose size</option>
+            <option value="1500">Large =ksh 1500</option>
+            <option value="1000">Medium =ksh 1000</option>
+            <option value="500">Small= ksh500</option>
+        </select><br>
+        </div>
+        </p>
+        <p>We offer a variety of crust for our pizza.Which one do you prefer?</p><br>
+        <img src="./images/im2.jpg"><br>
+        <label for="crust" style="color: blue">size</label>
+        <select class="browser-default custom select" id="crust">
+        <option value="">choose crust</option>
+        <option value="100">crispy=shs.100</option>
+        <option value="150">stuffed=shs.150</option>
+        <option value="200">glutten-free=shs.200</option>
+    </select><br>
+        <p> Well, have you tried our toppings? Yu can choose any that you wish your pizza to contain</p>
+        <img src="./images/pizza-toppings.jpg"><br>
+        <label for="toppings" name="toppings" style="color:pink">Toppings</label>
+        <select class="browser-default custom-select" id="toppings">
+        <option value="">Choose topping</option>
+        <option value="60">Cheese =ksh60</option>
+        <option value="60">pepperoni =ksh60
+            <!-- <option value="60">Cheese =ksh60</option> -->
+            <!-- <option value="60">pepperoni =ksh60</option> -->
+        <option value="60">onions =ksh60</option>
+    </select>
+</div>
+<div class="col-md-3">
+
+    <label for="quantity" style="color:blueviolet">Quantity</label>
+    <input class="form-control" type="text" name="pizza" id="quan" placeholder="0" max="" min="0">
+</div><br><br><br><br><br><br>
+<button class="btn btn-danger mx-auto d-block submit" type="submit" id="submit2" onclick="getTotalAmount();"><strong>Checkout</strong></button>
+</div>
+<script src="./js/scripts.js"></script>
+<script src="./js/jquery-3.4.1.js"></script>
+</div>
+</body>
+
+</html>
